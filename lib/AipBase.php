@@ -1,4 +1,5 @@
 <?php
+namespace sinian\aip\lib;
 /*
 * Copyright (c) 2017 Baidu.com, Inc. All Rights Reserved
 *
@@ -15,9 +16,9 @@
 * the License.
 */
 
-require_once 'AipHttpClient.php';
-require_once 'AipBCEUtil.php';
-require_once 'AipImageUtil.php';
+use  sinian\aip\lib\AipHttpClient;
+use  sinian\aip\lib\AipBCEUtil;
+use  sinian\aip\lib\AipImageUtil;
 
 /**
  * Aip Base 基类
@@ -221,7 +222,7 @@ class AipBase {
      * @return string
      */
     private function getAuthFilePath(){
-        return dirname(__FILE__) . DIRECTORY_SEPARATOR . md5($this->apiKey);
+        return dirname(__FILE__) . DIRECTORY_SEPARATOR .'runtime'. DIRECTORY_SEPARATOR . md5($this->apiKey);
     }
 
     /**

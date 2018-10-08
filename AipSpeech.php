@@ -1,4 +1,11 @@
 <?php
+<<<<<<< HEAD
+namespace sinian\aip;
+=======
+namespace sinian;
+>>>>>>> d375d670d5bf3614b325372b9a2a7c1f5fc6e5d9
+
+use sinian\aip\lib\AipBase;
 /*
 * Copyright (c) 2017 Baidu.com, Inc. All Rights Reserved
 *
@@ -14,8 +21,6 @@
 * License for the specific language governing permissions and limitations under
 * the License.
 */
-
-require_once 'lib/AipBase.php';
 
 /**
  * 百度语音
