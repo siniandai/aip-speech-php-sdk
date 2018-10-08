@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
 namespace sinian\aip;
-=======
-namespace sinian;
->>>>>>> d375d670d5bf3614b325372b9a2a7c1f5fc6e5d9
 
 use sinian\aip\lib\AipBase;
 /*
