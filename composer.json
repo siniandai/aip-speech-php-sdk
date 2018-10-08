@@ -1,0 +1,22 @@
+{
+	"name": "sinian/aip-speech-php-sdk",
+	"description": "百度语音php SDK",
+	"type": "library",
+	"keywords": ["aip-speech-php-sdk"],
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "sinian",
+			"email": "aoic@qq.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"sinian\\": "",
+			"sinian\\lib\\": "lib/"
+		}
+	}
+}
